@@ -24,7 +24,18 @@ public class Main {
         frame.setExtendedState(Frame.MAXIMIZED_BOTH);
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 
-        BufferedImage img = ImageIO.read(new File("Outlines/tree.png"));
+        //comment and uncomment to choose between images
+        
+        BufferedImage img = ImageIO.read(new File("Outlines/6star1.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Circle.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Heart.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Lightning.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Person.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Square.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/Star.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/powerhouse.png"));
+        // BufferedImage img = ImageIO.read(new File("Outlines/tree.png"));
+        
         ArrayList<ComplexNum> points = new ArrayList<>();
         int[] imgCenter = new int[]{img.getWidth()/2, img.getHeight()/2};
         int x = imgCenter[0], y = imgCenter[1], startX;
