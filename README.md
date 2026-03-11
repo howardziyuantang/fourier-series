@@ -3,4 +3,4 @@ Fourier series animation inspired by 3Blue1Brown's Fourier series video: https:/
 
 comment/uncomment lines 29-37 in Main.java to produce different images (image files in Outlines folder)
 
-**One of my personal favorites** - see [demo video](fourier_series_demo_video.zip)!
+**One of my personal favorites** - see [demo video](https://youtu.be/KuY8tdGETew)!
